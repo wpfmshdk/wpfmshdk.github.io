@@ -56,3 +56,8 @@ tag_dir: tag/
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+comment:
+  provider:              "disqus"
+  disqus:
+    shortname:           "wpfmshdk"
