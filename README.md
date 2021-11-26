@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 프로젝트를 만든 과정
-permalink: /about/
+
 ---
 
 ## Theme Monos
