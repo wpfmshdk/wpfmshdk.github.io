@@ -23,11 +23,5 @@ comment:
 ```
 를 추가했다. 그러고 나서 disqus 홈페이지에서 Universal Code를 복사하여 _layouts/post.html에 붙여넣기를 했다. 그리고 그 코드의 주석을 해제한 후, PAGE_URL과 PAGE_IDENTIFIER를 설정했고 s.src가 잘 지정되어있는지 확인함으로써 Universal Code를 수업 자료에 나와있는대로 수정했다. 마지막으로, _posts/example.md에 comments: True를 달아 댓글을 허용시켰고 사이트에 잘 반영이 되었는지까지 확인했다. 
  
-### _config.yml
-> Code block will look like this.
-```yml
-highlighter-theme: monokai //you can change your syntax color scheme.
-date_format: "%Y-%M-%D" //and date format.
-```
 
 
