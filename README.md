@@ -13,6 +13,16 @@ permalink: /about/
 > _posts 폴더에서 2021-11-11-example.md의 새로운 문서를 생성하였고 markdown 형식을 통해 내용을 작성했다. 그리고 이를 로컬 저장소에 커밋으로 반영하였고 원격 저장소에 푸쉬하여 반영시켜줬다. 그러고 나서 사이트에서 바뀐 내용을 확인할 수 있었다.
  마지막으로, 테마 사이트에서 'monos'라는 테마를 git clone하여 로컬 저장소에 받아왔고 _posts를 제외하고 테마를 로컬 저장소에 모두 반영시켰다.
 
+### 12주차
+> 블로그에 댓글 기능을 추가하기 위해 Disqus에 가입하고 나의 블로그 사이트 주소를 등록했다. 그리고 블로그에 Disqus를 반영하기 위해 _config.yml에 
+```yml
+comment:
+  provider:         "disqus"
+  disqus:
+    shortname:     "wpfmshdk"
+```
+를 추가했다.
+ 
 ### _config.yml
 > Code block will look like this.
 ```yml
